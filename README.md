@@ -25,3 +25,26 @@ In the case of sampling analysis, a log file is created in the corresponding dir
 Obtained results from the tool can be exploited for fault resilience comparison and visualization, as reported in the paper.
 
 It is highly recommended to run the tool on GPU. It is tested with _python 3.10.9_ and _pytorch 2.1.2+cu121_
+
+# citation
+
+Check out the [DeepVigor](https://ieeexplore.ieee.org/document/10174133) and [DeepVigor+](https://arxiv.org/abs/2410.15742) papers. If you use or reference DeepVigor+, please cite:
+
+```
+@inproceedings{ahmadilivani2023deepvigor,
+  title={Deepvigor: Vulnerability value ranges and factors for dnns’ reliability assessment},
+  author={Ahmadilivani, Mohammad Hasan and Taheri, Mahdi and Raik, Jaan and Daneshtalab, Masoud and Jenihhin, Maksim},
+  booktitle={2023 IEEE European Test Symposium (ETS)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+}
+```
+and
+
+```@article{ahmadilivani2024deepvigor+,
+  title={DeepVigor+: Scalable and Accurate Semi-Analytical Fault Resilience Analysis for Deep Neural Network},
+  author={Ahmadilivani, Mohammad Hasan and Raik, Jaan and Daneshtalab, Masoud and Jenihhin, Maksim},
+  journal={arXiv preprint arXiv:2410.15742},
+  year={2024}
+```
